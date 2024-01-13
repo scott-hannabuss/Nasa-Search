@@ -1,0 +1,20 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.nasa-logo {
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 750px) {
+  .nasa-logo {
+    width: 80%;
+  }
+}
